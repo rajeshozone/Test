@@ -8,7 +8,7 @@ This Ozone Sandbox has been created by [Ozone](https://ozoneapi.com) to enable d
 
 Access to these services on behalf of members is controlled by strong customer authentication within Zopa apps as part of OpenID Connect authorisation flows.
 
-We are a registered Account Servicing Payment Service Provider (ASPSP) who provide access to these services based on the Open Banking standard..
+We are a registered Account Servicing Payment Service Provider (ASPSP) who provide access to these services based on the Open Banking standard2
 
 ## Contents
 
