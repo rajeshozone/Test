@@ -1,34 +1,23 @@
-## The Sandbox
+# Open Banking Developer Portal
 
+## Open Banking
 
-### Introduction
+The Monese Open Banking API is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for member accounts.
 
-This Sandbox has been created by [Ozone](https://ozoneapi.com) to enable developers to build and test open banking enabled applications.
+This Ozone Sandbox has been created by [Ozone](https://ozoneapi.com) to enable developers to build and test open banking enabled applications which require access to Variable Recurring Payments (VRPse).
 
-It is based on the latest version 3.1.8 of the [UK open banking standard](https://standards.openbanking.org.uk/) which defines how regulated Third Party Providers (TPPs) can access APIs which enable Account Information Services (AIS), Payment Initiation Services (PIS), Confirmation of Funds (CBPII) and Variable Recurring Payments (VRPs) for personal and business customer accounts.
+Access to these services on behalf of members is controlled by strong customer authentication within Monese apps as part of OpenID Connect authorisation flows.
 
-This sandbox includes a test bank (a simulation of an Account Servicing Payment Service Provider or ASPSP), which provides access to these APIs, containing test bank accounts with synthetic transaction datasets.
+We are a registered Account Servicing Payment Service Provider (ASPSP) who provide access to these services based on the Open Banking standard.
 
-Specifically, this sandbox will enable developers to build applications
+## Contents
 
-
-### Getting Started
-
-If you are new to open banking and the UK standard, please follow these steps:
-
-1. Familiarise yourself with the concept of [open banking](https://www.openbanking.org.uk/customers/what-is-open-banking/)
-2. Read the UK [Customer Experience Guidelines](https://standards.openbanking.org.uk/customer-experience-guidelines/introduction/section-a/latest/), particularly the chapters on [VRPs](https://standards.openbanking.org.uk/customer-experience-guidelines/pis-core-journeys/vrp/vrp-payments-with-an-sca-exemption/latest/)
-3. Read the [OpenID Foundation's Financial Grade API (FAPI) Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md), on which the UK standard is based
-4. Read the latest v3.1.8 UK API Specifications, which are available here:
-a. Account and Transaction API [Documentation](/perry/developer/documentation?resource=fin-mxsbox-portal&document=docs/account-and-transaction-api-profile.md) | [Reference](/perry/developer/documentation?resource=fin-mxsbox-portal&document=swagger/account-info-openapi.json)
-b. Payment Initiation API [Documentation](/perry/developer/documentation?resource=fin-mxsbox-portal&document=docs/payment-initiation-api-profile.md) | [Reference](/perry/developer/documentation?resource=fin-mxsbox-portal&document=swagger/payment-initiation-openapi.json)
-c. Confirmation of Funds API Specification [Documentation](/perry/developer/documentation?resource=fin-mxsbox-portal&document=docs/read-write-data-api-profile.md) | [Reference](/perry/developer/documentation?resource=fin-mxsbox-portal&document=swagger/confirmation-funds-openapi.json)
-d. Variable Recurring Payments API Specification [Documentation](/perry/developer/documentation?resource=fin-mxsbox-portal&document=docs/vrp-profile.md) | [Reference](/perry/developer/documentation?resource=fin-mxsbox-portal&document=swagger/vrp-openapi.json)
-
-
-
-
-
-
-
-&nbsp;
+- [Introduction](/perry/developer/documentation?resource=dev-ui-portal&document=docs/10-index.md)
+- [Getting Started](/perry/developer/documentation?resource=dev-ui-portal&document=docs/20-getting-started.md)
+- [Production Environment](/perry/developer/documentation?resource=dev-ui-portal&document=docs/30-production.md)
+- [Sandbox Environment](/perry/developer/documentation?resource=dev-ui-portal&document=docs/40-sandbox.md)
+- [Planned Updates](/perry/developer/documentation?resource=dev-ui-portal&document=docs/50-planned-updates.md)
+- [AISP API Overview](/perry/developer/documentation?resource=dev-ui-portal&document=docs/API%20Overview/ais.md)
+- [Account and Transaction API Specification](/perry/developer/documentation?resource=dev-ui-portal&document=swagger/account-info-openapi.yaml)
+- [Payment Initiation Services API Specification](/perry/developer/documentation?resource=dev-ui-portal&document=swagger/payment-initiation-openapi.yaml)
+- [Card Based Payment Instrument Issuer API Specification](/perry/developer/documentation?resource=dev-ui-portal&document=swagger/confirmation-funds-openapi.yaml)
