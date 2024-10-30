@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Introduction",
+      "uri": "docs/10-index.md"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "group",
+      "title": "Documentation",
+      "items": [
+        {
+          "type": "item",
+          "title": "Account and Transaction API Documentation",
+          "uri": "docs/account-and-transaction-api-profile.md"
+        },
+        {
+          "type": "item",
+          "title": "Payment Initiation API Documentation",
+          "uri": "docs/payment-initiation-api-profile.md"
+        },
+        {
+          "type": "item",
+          "title": "Confirmation of Funds API Documentation",
+          "uri": "docs/read-write-data-api-profile.md"
+        },
+        {
+          "type": "item",
+          "title": "Variable Recurring Payments API Documentation",
+          "uri": "docs/vrp-profile.md"
+        }
+        
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "group",
+      "title": "API Reference",
+      "items": [
+        {
+          "type": "item",
+          "title": "Account and Transaction API Reference",
+          "uri": "swagger/account-info-openapi.json"
+        },
+        {
+          "type": "item",
+          "title": "Payment Initiation API Reference",
+          "uri": "swagger/payment-initiation-openapi.json"
+        },
+        {
+          "type": "item",
+          "title": "Confirmation of Funds API Reference",
+          "uri": "swagger/confirmation-funds-openapi.json"
+        },
+        {
+          "type": "item",
+          "title": "Variable Recurring Payments API Reference",
+          "uri": "swagger/vrp-openapi.json"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "item",
+      "title": "Resources",
+      "uri": "docs/Help/30-resources.md"
+    },
+    {
+      "type": "item",
+      "title": "FAQs",
+      "uri": "docs/Help/40-faqs.md"
+    },
+    {
+      "type": "item",
+      "title": "Help",
+      "uri": "docs/60-contact-us.md"
+    }
+  ]
+}
