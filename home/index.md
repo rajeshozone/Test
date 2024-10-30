@@ -1,12 +1,12 @@
-# Open Banking Developer Portal1
+# Open Banking Developer Portal
 
 ## Open Banking
 
-The Monese Open Banking API is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for member accounts.
+The Zopa Open Banking API is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for member accounts.
 
 This Ozone Sandbox has been created by [Ozone](https://ozoneapi.com) to enable developers to build and test open banking enabled applications which require access to Variable Recurring Payments (VRPse).
 
-Access to these services on behalf of members is controlled by strong customer authentication within Monese apps as part of OpenID Connect authorisation flows.
+Access to these services on behalf of members is controlled by strong customer authentication within Zopa apps as part of OpenID Connect authorisation flows.
 
 We are a registered Account Servicing Payment Service Provider (ASPSP) who provide access to these services based on the Open Banking standard.
 
