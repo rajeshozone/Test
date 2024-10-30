@@ -1,7 +1,7 @@
 # README #
 
 This repository contains the content for the Zopa openbanking developer portal. This portal
-will primarily used by third party developers (TPP developers) to consume the openbanking APIs
+will primarily used by third party developers (TPP developers) to consume the openbanking APIs2
 exposed by ozone  (for Zopa).
 
 This repository can be used to tailor the content presented to the third party developers including
